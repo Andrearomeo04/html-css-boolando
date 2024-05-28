@@ -130,6 +130,11 @@ img {
     position: absolute;
     top: 10px;
     right: 0px;
+    cursor: pointer;
+}
+
+.heart:hover {
+    color: red;
 }
 
 /* footert section  */
