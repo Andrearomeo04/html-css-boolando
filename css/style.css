@@ -4,12 +4,8 @@
     box-sizing: border-box;
 }
 
-header {
-    background-color: #ff6900;
-}
-
 .container {
-    max-width: 1500px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
@@ -18,7 +14,11 @@ header {
     flex-wrap: wrap;
 }
 
-
+/* header section  */
+header {
+    background-color: #ff6900;
+    margin-bottom: 70px;
+}
 
 .col-15-head-left {
     width: 15%;
@@ -54,6 +54,22 @@ li {
 img {
     height: 30px;
     
+}
+/* header section end  */
+
+/* main section  */
+
+.col-33 {
+    width: calc(100%/3);
+}
+
+.content {
+    margin: 10px
+}
+
+.content img {
+    height: 100%;
+    width: 100%;
 }
 
 .dashed-black {
