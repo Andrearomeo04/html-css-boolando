@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .container {
     max-width: 1300px;
     margin: 0 auto;
@@ -70,6 +74,22 @@ img {
 .content img {
     height: 100%;
     width: 100%;
+}
+
+.visible-image {
+    display: block;
+}
+
+.hidden-image {
+    display: none;
+}
+
+.content:hover .visible-image {
+    display: none;
+}
+
+.content:hover .hidden-image {
+    display: block;
 }
 
 /* footert section  */
