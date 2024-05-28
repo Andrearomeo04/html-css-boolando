@@ -20,21 +20,21 @@ header {
     margin-bottom: 70px;
 }
 
-.col-15-head-left {
-    width: 15%;
+.col-20-head-left {
+    width: 20%;
     margin: 15px 0px;
     padding-top: 5px;
 }
 
-.col-15-head-right {
-    width: 15%;
+.col-20-head-right {
+    width: 20%;
     margin: 15px 0px;
     text-align: right;
     padding-top: 5px;
 }
 
-.col-70-head {
-    width: 70%;
+.col-60-head {
+    width: 60%;
     margin: 15px 0px;
     display: flex;
     justify-content: center;
@@ -78,4 +78,12 @@ img {
 
 .text-white {
     color: white;
+}
+
+.text-red {
+    color: red;
+}
+
+.cancel {
+    text-decoration: line-through;
 }
