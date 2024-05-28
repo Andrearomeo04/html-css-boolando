@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+main {
+    margin-top: 110px;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -21,7 +25,11 @@ body {
 /* header section  */
 header {
     background-color: #ff6900;
-    margin-bottom: 70px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 .col-20-head-left {
