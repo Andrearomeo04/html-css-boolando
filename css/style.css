@@ -69,6 +69,7 @@ img {
 
 .content {
     margin: 10px 10px 40px 10px;
+    position: relative;
 }
 
 .content img {
@@ -90,6 +91,27 @@ img {
 
 .content:hover .hidden-image {
     display: block;
+}
+
+.labels {
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    display: flex;
+}
+
+.label {
+    padding: 5px 10px;
+    color: white;
+}
+
+.bg-red {
+    background-color: red;
+    margin-right: 5px;
+}
+
+.bg-green {
+    background-color: green;
 }
 
 /* footert section  */
