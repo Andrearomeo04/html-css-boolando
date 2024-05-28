@@ -18,13 +18,19 @@ header {
     flex-wrap: wrap;
 }
 
-.content {
-    margin: 15px 0px;
-}
 
-.col-15-head {
+
+.col-15-head-left {
     width: 15%;
     margin: 15px 0px;
+    padding-top: 5px;
+}
+
+.col-15-head-right {
+    width: 15%;
+    margin: 15px 0px;
+    text-align: right;
+    padding-top: 5px;
 }
 
 .col-70-head {
