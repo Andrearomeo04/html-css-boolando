@@ -64,7 +64,7 @@ img {
 }
 
 .content {
-    margin: 10px
+    margin: 10px 10px 40px 10px;
 }
 
 .content img {
@@ -72,8 +72,41 @@ img {
     width: 100%;
 }
 
+/* footert section  */
+footer {
+    background-color: #1a1a1a;
+    padding: 30px;
+}
+
+.col-90 {
+    width: 90%;
+}
+
+.col-10 {
+    width: 10%;
+}
+
+h2 {
+    margin: 0px 10px 5px 10px;
+}
+
+.footer-social-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
 .dashed-black {
     border: 1px dashed black;
+}
+
+.dashed-white {
+    border: 1px dashed white;
 }
 
 .text-white {
